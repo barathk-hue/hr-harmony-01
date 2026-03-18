@@ -1,0 +1,16 @@
+export class CreateEducationDto {
+
+  employee_id: number;
+
+  degree?: string;
+
+  field_of_study?: string;
+
+  institution?: string;
+
+  start_year?: number;
+
+  end_year?: number;
+
+  grade?: string;
+}
